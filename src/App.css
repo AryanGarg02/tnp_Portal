@@ -1,7 +1,9 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
-
+body {
+  font-family: 'Poppins';
+}
 .logo {
   display: block;
   margin-left: auto;
@@ -14,7 +16,7 @@
 }
 
 
-.loginforms h1 {
+.loginforms h1{
   font-size: 40px;
   line-height: 60px;
   text-align: center;
@@ -27,12 +29,19 @@
   margin-right: auto;
 }
 
-#inputArea {
-  width: 315px;
-  height: 50px;
+.inputbox {
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 20px;
+  width: 285px;
+  height: 30px;
   background-color: #f1f2f3;
   border: none;
   border-radius: 14px;
+}
+
+.emailInput {
+  margin-bottom: 30px;
 }
 
 .loginBtn {
@@ -50,11 +59,121 @@
   margin-top: 15px;
 }
 
+.btnActive{
+  background-color: #4A90E2;
+}
+
+
 .credentials {
   font-family: 'Poppins';
   font-style: normal;
   font-size: 16px;
   line-height: 24px; 
   color: #9e9ea7; 
+  padding: 5px;
+  display: inline-block;
 }
 
+.redirectLinks {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.forgot {
+  display: inline-block;
+  padding-bottom: 8px;
+  color: #4A90E2;
+}
+
+.newUser {
+  color: #4A90E2;
+}
+
+.passwordReset {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.passwordReset h1{
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.passwordReset p{
+  margin-top: 1px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.resetLink {
+  margin-top: 50px;
+  display: block;
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pwdBtn {
+  width: 315px;
+  height: 50px;
+  background-color: #d4d5da;
+  font-family: 'Poppins';
+  color: #ffffff;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  border-radius: 14px;
+  margin-top: 15px;
+}
+
+.pwdbtnActive{
+  background-color: #4A90E2;
+}
+
+.signInheading {
+  text-align: center;
+}
+
+.createBtn {
+  width: 315px;
+  height: 50px;
+  background-color: #d4d5da;
+  font-family: 'Poppins';
+  color: #ffffff;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  border-radius: 14px;
+  margin-top: 18px;
+}
+
+.createbtnActive{
+  background-color: #4A90E2;
+}
+
+.createAccount {
+  display: block;
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logIn {
+    font-size: 16px;
+    margin-top: 15px;
+    display: inline-block;
+    padding-bottom: 8px;
+    color: #4A90E2;
+}
+
+.loginDirect {
+  text-align: center;
+}

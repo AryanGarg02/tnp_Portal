@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
 
 body {
   font-family: 'Poppins';
@@ -60,6 +60,17 @@ body {
 }
 
 .btnActive{
+  /* width: 315px;
+  height: 50px;
+  font-family: 'Poppins';
+  color: #ffffff;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  border: none;
+  border-radius: 14px;
+  margin-top: 15px; */
   background-color: #4A90E2;
 }
 
@@ -176,4 +187,9 @@ body {
 
 .loginDirect {
   text-align: center;
+}
+
+.loading {
+  display: block;
+  margin: 25% auto;
 }

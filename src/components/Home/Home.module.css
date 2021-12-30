@@ -1,0 +1,74 @@
+.Live{
+    width: 80%;
+    float: right;
+}
+
+.Heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Home {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #0D0C21;
+    opacity: 0.8;
+    padding-left: 50px;
+}
+
+.NewJob {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    width: 180px;
+    background-color: #4A90E2;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 80px;
+    font-family: 'Poppins';
+}
+
+.NewJob a{
+    text-decoration: none;
+    color: white;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 50px;
+    border-bottom: 1px solid #D3D5DB;
+    z-index: 100;
+}
+
+.Sections.Active {
+    color: #4A90E2;
+    border: 1px solid #D3D5DB;
+    border-bottom: white;
+    font-weight: 600;
+    z-index: 300;
+    background-color: white;
+}
+
+.Sections{
+    border-bottom: 1px solid #D3D5DB;
+    position: relative;
+    bottom: -1px;
+    color: #9196A5;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #EFEFEF;
+    border-radius: 6px 6px 0px 0px;
+    padding: 10px 30px;
+    margin-bottom: 0px;
+}
+
+
+

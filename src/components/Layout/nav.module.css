@@ -1,0 +1,65 @@
+
+
+.NavComp {
+    padding-left: 20%;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 15px 0px;
+}
+
+.NavComp.Active {
+    background-color: #ffffff4c;
+    position: relative;
+
+}
+
+.NavComp.Active::after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #44D7B6;
+
+}
+
+
+.LeftPanel {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+    float: left;
+    background-color: #232D4C;
+    height: 100vh;
+}
+
+.BigContainer img {    /* Logo */
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.BigContainer ul {
+    margin-right: auto;
+    padding-inline-start: 0px;
+    font-size: 18px;
+}
+
+.Logout a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20%;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.Logout {
+    padding-bottom: 50px;
+}
